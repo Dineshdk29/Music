@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Music Website </title>
+        <link rel="stylesheet" href="style.css">
+ </head> 
+ <body>
+     <div class="container" >
+         <div class="navbar">
+             <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SPECIFICATIONS</a></li>
+                <li><a href="#">CONNECT</a></li>
+             </ul>
+             <button type="button" oneclick="toggleBtn()" id="btn"><span></span></button>
+          </div> 
+          <div class="content">
+              <div class="left-col">
+                  <h1>THE REAL SOUND</h>
+                </div>
+                <div class="right-col">
+                 <p>When Words Leave off,<br> Music Begins....</p>
+                 <img src="media/play.jpg" id="icon">
+               </div>
+           </div>"
+     </div>
+       
+ <script>
+          var icon = document.getElementById("icon");
+            icon.oneclick = function(){
+             mysong.play();
+ </script>
+</body>
+</html>
