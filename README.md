@@ -1,2 +1,2 @@
 # Music
-https://github.com/Dineshdk29/Music.git
+https://dineshdk29.github.io/Music/
