@@ -36,6 +36,10 @@
     font-weight: 400;
     margin-right: 15px;
 }
+#icon{
+   width: 80px;
+   cursor:pointerl;
+}
 .navbar{
     width: 88%;
     margin: auto;
